@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: cornsilk;
+    color: white;
+    
+}
+
+.container{
+    background: url(puente.jpg);
+    width: 600px;
+    height: 500px;
+    margin: 10px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 4px 1px black;
+    color: white;
+}
+.capa{
+    background: rgba(0, 0, 0, 0.507);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+input{
+    width:300px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    display: flex;
+    position: relative;
+    background: rgba(255, 255, 255, 0.3);
+    outline: none;
+    color: wheat;
+    line-height: 1em;
+}
+#link2{
+    margin: 15px;
+    padding: 15px;
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+#link2:visited{
+    color:white;
+    background: white;
+}
+
+.link{
+    top: -20px;
+    position: relative;
+}
